@@ -3,7 +3,7 @@ AIDA-CRUD: Advanced Intelligent Django API CRUD Framework
 A comprehensive framework for building DRY, feature-rich CRUD operations
 """
 
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 
 # Only import if Django is configured
 try:

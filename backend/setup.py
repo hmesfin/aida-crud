@@ -9,7 +9,7 @@ with open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
 
 setup(
     name="aida-crud",
-    version="1.0.0",
+    version="1.0.1",
     author="Gojjo Tech",
     author_email="admin@gojjotech.com",
     description="Advanced Intelligent Django API CRUD Framework - A comprehensive, DRY solution for building feature-rich CRUD operations",
@@ -33,6 +33,8 @@ setup(
         "Framework :: Django :: 4.0",
         "Framework :: Django :: 4.1",
         "Framework :: Django :: 4.2",
+        "Framework :: Django :: 5.0",
+        "Framework :: Django :: 5.1",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
         "Programming Language :: Python",
@@ -45,7 +47,7 @@ setup(
     ],
     python_requires=">=3.8",
     install_requires=[
-        "Django>=3.2,<5.0",
+        "Django>=3.2,<6.0",
         "djangorestframework>=3.12.0",
         "django-filter>=2.4.0",
         "openpyxl>=3.0.0",
