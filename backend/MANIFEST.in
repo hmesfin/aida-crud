@@ -1,0 +1,12 @@
+include README.md
+include LICENSE
+include pyproject.toml
+recursive-include aida_crud *.py
+recursive-include aida_crud *.html
+recursive-include aida_crud *.txt
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+recursive-exclude tests *
+global-exclude .DS_Store
+global-exclude *.swp
+global-exclude *~
